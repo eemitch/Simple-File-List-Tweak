@@ -25,6 +25,9 @@ Simple File List is a WordPress plugin that provides an easy way to manage files
 
 == Changelog ==
 
+= 1.0.1
+* Check if the current logged-in user has a file list yet, create one automatically if not based on their ID
+
 = 1.0.0 =
 * Initial release
 * Stop file links from opening into a new tab.
