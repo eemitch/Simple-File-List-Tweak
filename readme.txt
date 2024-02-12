@@ -10,7 +10,7 @@ This plugin allows for modifying of the operation of Simple File List.
 
 == Description ==
 
-This plugin allows you to add custom code (HTML, PHP, CSS, Javascript) in order to modify the appearance or operation of Simple File List. There is no interface at this time. Each version will add more functionality.
+This plugin allows us to add custom code (HTML, PHP, CSS, Javascript) in order to modify the appearance or operation of Simple File List.
 
 == Installation ==
 
@@ -25,7 +25,10 @@ Simple File List is a WordPress plugin that provides an easy way to manage files
 
 == Changelog ==
 
-= 1.0.1
+= 1.1.1 =
+* 
+
+= 1.0.1 =
 * Check if the current logged-in user has a file list yet, create one automatically if not based on their ID
 
 = 1.0.0 =

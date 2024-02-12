@@ -2,7 +2,7 @@
 /*
 Plugin Name: Simple File List Tweak
 Description: Allows for modifying the operation of Simple File List.
-Version: 1.0.1
+Version: 1.1.1
 Author: Mitchell Bennis - support@simplefilelist.com
 Author URI: https://simplefilelist.com
 License: EULA | https://simplefilelist.com/end-user-license-agreement/
@@ -39,18 +39,12 @@ function eeSFL_Tweak_Setup() {
 	$eeSFL->eeLog[eeSFL_Go]['notice']['TWEAK'][] = eeSFL_noticeTimer() . ' - Simple File List TWEAK is Loading...';
 	
 	
-	// TWEAKS ---------------------
-	
-	// AUTO-CREATE FILE LIST
-	// Check if the current logged-in user has a file list yet, create one automatically if not based on their ID
-	// tweaks/ee-auto-create-list-based-on-user.php'
-	$eeTweakFile = plugin_dir_path(__FILE__) . '/tweaks/ee-auto-create-list-based-on-user.php';
-	if(is_readable($eeTweakFile)) {
-		$eeSFL_Nonce = wp_create_nonce('eeSFL_Tweak_1.0.1');
-		require_once($eeTweakFile);
-		$eeSFL->eeLog[eeSFL_Go]['notice']['TWEAK'][] = eeSFL_noticeTimer() . ' - FILE LIST CHECK';
-		// $eeResult = eeSFL_Tweak_ListCheck();
-	}
+	// TWEAK ---------------------
+
+
+
+
+
 	
 	// Output the SFL Log File
 	// echo '<pre>SFL Log: ';
