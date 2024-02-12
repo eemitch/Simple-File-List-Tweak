@@ -171,6 +171,8 @@ function eeSFL_Tweak_Shortcode_Handler($return, $tag, $attr, $m) {
 		}
 	}
 	
+	return FALSE;
+	
 }
 
 ?>
